@@ -8,7 +8,7 @@
  */
 
 # Connect to PostgreSQL database
- $conn = new PDO('pgsql:host=5.189.164.107;port=5432;dbname=laravel','postgres','Bacspace9');
+ $conn = new PDO('pgsql:host=host;port=5432;dbname=''','postgres','');
  
 
 # Build SQL SELECT statement and return the geometry as a GeoJSON element
